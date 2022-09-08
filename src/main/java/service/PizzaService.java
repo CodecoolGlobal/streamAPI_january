@@ -115,4 +115,7 @@ public class PizzaService {
                 .collect(Collectors.joining("\n"));
     }
 
+    public int add(int i, int i1) {
+       return i + i1;
+    }
 }
